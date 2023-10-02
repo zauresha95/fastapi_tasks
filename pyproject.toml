@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "booking"
+version = "0.1.0"
+description = ""
+authors = ["zauresha95 <ametkulova95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.20"
+uvicorn = "^0.23.2"
+fastapi = "^0.103.1"
+alembic = "^1.12.0"
+asyncpg = "^0.28.0"
+greenlet = "^2.0.2"
+pydantic-settings = "^2.0.3"
+base = "^0.0.0"
+redis = "^5.0.0"
+fastapi-versioning = "^0.10.0"
+prometheus-fastapi-instrumentator = "^6.1.0"
+aioredis = "^2.0.1"
+fastapi-cache2 = "^0.2.1"
+celery = "^5.3.4"
+flower = "^2.0.1"
+pillow = "^10.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
